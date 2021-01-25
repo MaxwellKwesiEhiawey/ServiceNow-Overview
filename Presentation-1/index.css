@@ -1,0 +1,124 @@
+
+
+body{
+  background:url(image/banner3.jpg) no-repeat center 1px; 
+  color: #ec441c;
+  font-family: 'Segoe UI';
+
+}
+
+h4,h2{
+padding-left: 20px;
+padding:10px;
+}
+  .btn{
+    padding: 210px;
+    position: fixed;
+    padding-left: 400px;
+  }
+#myBtn {
+  display: inline-block;
+  padding: 0.35rem 0.5rem;
+  text-decoration: none;
+  font: inherit;
+  font-size: bold;
+  border: 0px solid whitesmoke;
+  color:  white;
+  background: #ec441c;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+#myBtn2{
+  display: inline-block;
+  padding: 0.35rem 0.5rem;
+  text-decoration: none;
+  font: inherit;
+  font-size: bold;
+  border: 1px solid #ec441c;
+  color:  white;
+  background: #1d1d1d;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+  
+}
+
+/* #myBtn2:hover {
+  background-color: #1d1d1d;
+  color: white;
+  transform: scale(1.20);
+} */
+#myBtn:hover{
+  background-color: #ec441c; 
+  color: white;
+  transform: scale(1.20)
+}
+.btn1, .btn2{
+  padding-left: 250px;
+  padding-bottom: 10px;
+}
+/* The Modal (background) */
+.modal, .modal2 {
+  display: block; /* Hidden by default */
+  position:fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 100px;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content, .modal-content-2{
+  display: flexbox;
+  background-color: #ffff;
+  margin: auto;
+  padding-left: 100px;
+  border: 1px solid #ec441c;
+  width: 45%;
+  font-size: large;
+ 
+}
+
+/* The Close Button */
+.close, .cancel, button {
+  color: #ffff;
+  padding: 2.5px;
+  font-size: 15px;
+  background-color: #ec441c;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+}
+
+.close, .cancel, button:hover,
+.close, .cancel, button:focus
+ {
+  color: #ec441c;
+  color: #ffff;
+  transform: scale(1.10);
+  border-radius: 20px;
+  outline: none;
+}
+
+.overlay{
+  height: 100%;
+  width: 100%;
+  position:fixed;
+  z-index: 2;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:rgb(0,0,0);
+  background-color: rgba(0,0,0,0.75);
+} 
